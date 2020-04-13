@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { AvatarService } from '../avatar.service';
 import { Avatar } from '../avatar.model';
 
 @Component({
@@ -13,7 +12,7 @@ export class AvatarTileComponent implements OnInit {
   @Input() avatar: Avatar;
   @Input() backgroundColor: string;
 
-  constructor(private avatarService: AvatarService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }

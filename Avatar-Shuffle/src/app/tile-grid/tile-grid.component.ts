@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { AvatarService } from '../avatar.service';
-import { Avatar } from '../avatar.model';
 
 @Component({
   selector: 'app-tile-grid',
