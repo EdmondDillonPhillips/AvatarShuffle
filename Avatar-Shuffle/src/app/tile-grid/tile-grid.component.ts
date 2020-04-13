@@ -36,7 +36,7 @@ export class TileGridComponent implements OnInit {
 
       });
 
-}
+  }
 
   generateRandomColor(){
 

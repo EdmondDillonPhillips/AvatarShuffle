@@ -125,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "Avatar-Shuffle"
+  "defaultProject": "Avatar-Shuffle",
+  "cli": {
+    "analytics": false
+  }
 }
